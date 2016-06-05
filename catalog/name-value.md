@@ -39,10 +39,6 @@ them as values with meaningful names.
 #### After
 
 ```clojure
-(defn tax-multiplier [rate] (+ 1 (/ tax-rate 100)))
-(defn with-tax [rate amount] (* amount (tax-multiplier rate)))
-(defn total-amount [items] (sum (map :amount items)))
-
 (defn order-total
   [items tax-rate]
   (let [tax-multiplier (+ 1 (/ tax-rate 100))
