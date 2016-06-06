@@ -28,6 +28,8 @@ and (improvements) pull requests!
 * Reduce to Map and Filter
 * Extract Parameter to Type
 * Tail Call Optimise Recursion
+* Replace Conditional with Polymorphism
+* Chain of Consequences to Maybe (or Either) Monad
 
 ## Links
 
