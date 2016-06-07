@@ -19,7 +19,7 @@ and (improvements) pull requests!
 * Go Point Free
 * Curry Function
 * Recursion to Map
-* Recursion to Filter
+* [Recursion to Filter](catalog/recursion-to-filter.md)
 * Recursion to Reduce
 * [Name Value](catalog/name-value.md)
 * [Extract Function](catalog/extract-function.md)
