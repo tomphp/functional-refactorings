@@ -25,7 +25,7 @@ and (improvements) pull requests!
 * [Extract Function](catalog/extract-function.md)
 * [Name Lambda](catalog/name-lambda.md)
 * [Compose Nested Functions](catalog/compose-nested-functions.md)
-* Reduce to Map and Filter
+* [Reduce to Map and Filter](catalog/reduce-to-map-and-filter.md)
 * Extract Parameter to Type
 * [Tail Call Optimise Recursion](catalog/tail-call-optimise-recursion.md)
 * Replace Conditional with Polymorphism
