@@ -63,11 +63,6 @@ you would like, you simply change the order.
 ; Changing the order of x and coll...
 (defn list-contains? [x coll] (boolean (some #(= % x) coll)))
 
-(def messages [["hello" "world"]
-               ["hello" "moon"]
-               ["goodbye" "world"]
-               ["goodbye" "moon"]])
-
 ; ...allows the use of partial application instead of an anonymous function
 (filter (partial list-contains? "world") messages)
 ; (["hello" "world"] ["goodbye" "world"])
