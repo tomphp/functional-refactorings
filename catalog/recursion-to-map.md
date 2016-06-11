@@ -22,7 +22,8 @@ code. It describes the process which you are performing on the data, rather
 than how you are implementing it.
 
 It also separates to the responsibility of iterating over the collection from
-the per item filtering rules. This increases reusability and composability.
+the per item transformation rules. This increases reusability and
+composability.
 
 ## Description
 
@@ -49,7 +50,7 @@ then pass that to `map` instead.
 ```clojure
 (defn amounts-with-tax
   [tax-rate amounts]
-  (if (empty? tax-rate)
+  (if (empty? amounts)
       []
       (cons (with-tax (head amounts)) (amounts-with-tax tax-rate (tail amounts)))))
 ```

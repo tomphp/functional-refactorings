@@ -20,7 +20,7 @@ and (improvements) pull requests!
 * Curry Function
 * [Recursion to Map](catalog/recursion-to-map.md)
 * [Recursion to Filter](catalog/recursion-to-filter.md)
-* Recursion to Reduce
+* [Recursion to Reduce](catalog/recursion-to-reduce.md)
 * [Name Value](catalog/name-value.md)
 * [Extract Function](catalog/extract-function.md)
 * [Name Lambda](catalog/name-lambda.md)
