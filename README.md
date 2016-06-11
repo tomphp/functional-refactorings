@@ -27,7 +27,7 @@ and (improvements) pull requests!
 * [Compose Nested Functions](catalog/compose-nested-functions.md)
 * Reduce to Map and Filter
 * Extract Parameter to Type
-* Tail Call Optimise Recursion
+* [Tail Call Optimise Recursion](catalog/tail-call-optimise-recursion.md)
 * Replace Conditional with Polymorphism
 * Chain of Consequences to Maybe (or Either) Monad
 
