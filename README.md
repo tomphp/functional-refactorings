@@ -18,7 +18,7 @@ and (improvements) pull requests!
 * [Rearrange Function Parameters](catalog/rearrange-function-parameters.md)
 * Go Point Free
 * Curry Function
-* Recursion to Map
+* [Recursion to Map](catalog/recursion-to-map.md)
 * [Recursion to Filter](catalog/recursion-to-filter.md)
 * Recursion to Reduce
 * [Name Value](catalog/name-value.md)
