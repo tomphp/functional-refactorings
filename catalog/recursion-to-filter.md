@@ -18,22 +18,30 @@ All
 
 ## Motivation
 
-Selectively filter a list of items into a new, smaller list of items, based
-on defined criteria, in the form of a boolean statement or function. The main benefit
-of this approach is it separates the predicate logic from the filtering code, providing
-more opportunity for function reuse and composability. It describes the action rather
-than the implementation of the action, improving legibility. Also it is not restricted
-by stack size in languages where tail call recursion is not supported.
+In functional programming `map`, `reduce` and `filter` (and their synonyms)
+become fundamental building blocks for your programs.
+
+`filter` is used when you want to remove items from a list based on some
+predicate test.
+
+Using `filter` instead of a loop or recursive function creates more declarative
+code. It describes the process which you are performing on the data, rather
+than how you are implementing it.
+
+It also separates to the responsibility of iterating over the collection from
+the per item filtering rules. This increases reusability and composability.
 
 ## Description
 
-The filter takes a function (called a predicate) that is passed each element from
-the original list. If the function returns `true` then that item is included in
-the new list. If it returns false then that item is not included.
-This refactoring can be identified when you have a recursive function that does some
-form of inline filtering, possibly along with other manipulation. Once identified,
-the filtering logic can be extracted out to an anonymous function or another function.
-This is an immutable operation, returning a new list and not affecting the original.
+This refactoring can be identified when you have a recursive function that does
+some form of inline filtering, possibly along with other manipulation. Once
+identified, the filtering logic can be extracted out to an anonymous or named
+function.
+
+The filter takes a function (called a predicate) that is passed each element
+from the original list. If the function returns `true` then that item is
+included in the new list. If it returns false, then that item is not included.
+
 
 ## Examples
 
@@ -48,7 +56,6 @@ numbers = [1, 6, 3, 5, 8, 67, 43, 4, 6, 8]
 #### Before
 
 ```haskell
--- tail recursion
 evenNumbersOnly :: Integral a => [a] -> [a]
 evenNumbersOnly [] = []
 evenNumbersOnly (x:xs) = if even x
@@ -61,6 +68,5 @@ evenNumbers = evenNumbersOnly numbers
 #### After
 
 ```haskell
-
 evenNumbers = filter even numbers
 ```
