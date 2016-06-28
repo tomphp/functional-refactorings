@@ -26,6 +26,7 @@ and (improvements) pull requests!
 * [Name Lambda](catalog/name-lambda.md)
 * [Compose Nested Functions](catalog/compose-nested-functions.md)
 * [Reduce to Map and Filter](catalog/reduce-to-map-and-filter.md)
+* Map and Filter to Reduce
 * Extract Parameter to Type
 * [Tail Call Optimise Recursion](catalog/tail-call-optimise-recursion.md)
 * Replace Conditional with Polymorphism
@@ -38,4 +39,9 @@ Links for further reading (not yet integrated into this document)
 * http://refactoring.com/catalog/
 * http://victorsavkin.com/post/63551894251/functional-refactoring-in-javascript
 * https://www.cs.kent.ac.uk/projects/refactor-fp/publications/Huiqing-thesis.pdf
+* https://www.cs.kent.ac.uk/projects/refactor-fp/publications/AFP04.pdf
+* https://www.cs.kent.ac.uk/projects/refactor-fp/publications/ChrisThesis.pdf
 * http://thepugautomatic.com/2016/01/pattern-matching-complex-strings/
+* https://vimeo.com/45140590
+* https://vimeo.com/122645679
+* https://speakerdeck.com/lilobase/des-boucles-aux-transducers-pyconfr-2015
