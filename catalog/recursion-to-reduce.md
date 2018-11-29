@@ -3,7 +3,7 @@
 ## Relates To
 
 * [Recursion to Filter](recursion-to-filter.md)
-* [Recursion to Reduce](recursion-to-reduce.md)
+* [Recursion to Map](recursion-to-map.md)
 
 ## Languages
 
